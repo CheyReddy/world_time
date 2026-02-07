@@ -1,16 +1,112 @@
-# world_time
+🌍 World Time App (Flutter)
 
-Second Project World Time
+A Flutter application that displays the current time of different locations around the world. The app uses services to fetch time data and pages to handle UI and navigation.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+View current time for different countries/cities
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Clean and simple UI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Organized project structure
+
+Uses asynchronous services to fetch world time data
+
+
+🛠️ Built With
+
+Flutter
+
+Dart
+
+Time API (or any time service you used)
+
+
+📁 Project Structure
+
+The main code lives inside the lib folder and is organized as follows:
+
+lib/
+│
+├── pages/
+│   ├── home.dart        # Home screen UI
+│   ├── loading.dart     # Loading screen while fetching time
+│   └── choose_location.dart  # Select a location
+│
+├── services/
+│   └── world_time.dart  # Handles API calls and time logic
+│
+└── main.dart            # Entry point of the application
+
+
+📄 Folder Explanation
+
+pages/
+Contains all the UI screens of the application.
+
+services/
+Contains logic and services such as API calls and data processing (separated from UI).
+
+
+▶️ Getting Started
+Prerequisites
+
+Flutter SDK installed
+
+Android Studio / VS Code
+
+Emulator or physical device
+
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/worldtime-flutter.git
+
+
+Navigate to the project directory:
+
+cd worldtime-flutter
+
+
+Get dependencies:
+
+flutter pub get
+
+
+Run the app:
+
+flutter run
+
+
+📚 Learning Purpose
+
+This project is built for learning Flutter concepts such as:
+
+Navigation & routing
+
+Async/await
+
+API integration
+
+Separation of UI and business logic
+
+
+📄 License
+
+This project is licensed under the MIT License.
+
+
+👨‍💻 Author 
+
+Venkata Chaithanya Reddy Vangala 
+
+💼 Java Full-Stack Developer | 🌱 Learning React, Flutter, Spring Boot
+
+
+
+
+https://github.com/user-attachments/assets/a86e9d81-8c53-4272-ba8f-36578c6dfb6e
+
